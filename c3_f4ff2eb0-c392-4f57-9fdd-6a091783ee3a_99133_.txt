@@ -1,0 +1,28 @@
+# print('Hello World')
+'''
+Q1. WAP that gets two inputs from user.
+Display the sum and difference of those numbers.
+Provide comments and also show the data types
+'''
+
+# Codes used in the program
+'''
+1. input()
+2. print()
+3. type()
+'''
+
+# Get inputs from user
+num1 = int(input("Enter the first number>> "))
+num2 = input("Enter the second number>> ")
+num2 = float(num2)
+print("The data types of input munbers are", type(num1), type(num2))
+
+# Display the calculation to the user
+# sum = num1+num2
+# diff = num1-num2
+sum, diff = num1+num2, num1-num2
+
+print("The data types of calculation are", type(sum), type(diff))
+print("The sum is", sum)  #this is pure print method implementation with ,
+print("The diff is"+str(diff)) # single str is passed to print witn concatination
